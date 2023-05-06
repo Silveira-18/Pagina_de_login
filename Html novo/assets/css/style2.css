@@ -8,20 +8,24 @@
 }
 
 body {
-    background-color: #f2f2f2;
+    background-image: url(/imagem/blue-bubbles-background-vector.jpg);
+    height: 900px;
+
 }
 
 .content-center {
     width: 100%;
-    max-width: 300px;
+    max-width: 900px;
     margin: auto;
+    height: 900px;
     padding: 20px;
     background-color: #FFF;
-    border-radius: 15px;
+    border-radius: 50%;
     box-shadow: 13px 13px 27px 0px rgba(0,0,0,0.64);
 -webkit-box-shadow: 13px 13px 27px 0px rgba(0,0,0,0.64);
 -moz-box-shadow: 13px 13px 27px 0px rgba(0,0,0,0.64);
 }
+    
 
 .content-center img {
     width: 70%;
@@ -89,4 +93,5 @@ footer{
 }
 #text-center{
     text-align: center;
+    margin-top: 25%;
 }
